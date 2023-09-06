@@ -1,6 +1,33 @@
 # guestlist
 tool for identifying guest relationships between companies
 
+```
+*********************************************************************************************************
+
+                            G U E S T L I S T  v1.00                  
+                                                   
+                           2023 @nyxgeek - TrustedSec                   
+*********************************************************************************************************
+usage: guestlist.py [-h] [-m] [-d] [-t] [-u] [-U] [-o] [-n] [-v] [-D] [-a] [-s] [-f] [-r] [-c]
+
+optional arguments:
+  -h, --help        show this help message and exit
+  -m , --method     silent or graph (default:silent)
+  -d , --domain     target domain name
+  -t , --tenant     tenant name if known, otherwise specify domain and will lookup
+  -u , --username   email address to target
+  -U , --userfile   file containing email addresses
+  -o , --output     file to write output to (default: output.log)
+  -n, --no-db       disable logging to db
+  -v, --verbose     enable verbose output
+  -D, --debug       enable debug output
+  -a , --access     fireprox AWS access_key
+  -s , --secret     fireprox AWS secret key
+  -f , --credfile   fireprox - file containing aws_secret and aws_key values
+  -r , --region     fireprox AWS region
+  -c , --command    fireprox command (create, delete, list)
+```
+
 
 ## notes:
 
